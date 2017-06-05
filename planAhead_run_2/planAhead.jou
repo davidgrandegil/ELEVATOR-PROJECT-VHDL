@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# PlanAhead v14.3 (64-bit)
+# Build 209282 by xbuild on Thu Oct 18 20:50:53 MDT 2012
+# Start of session at: Mon Jan 09 12:02:00 2017
+# Process ID: 5968
+# Log file: C:/Xilins/Proyectos/Ascensor_SED/ASCENSOR/planAhead_run_2/planAhead.log
+# Journal file: C:/Xilins/Proyectos/Ascensor_SED/ASCENSOR/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Xilins/Proyectos/Ascensor_SED/ASCENSOR/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list {seg_piso[7]} {seg_piso[6]} {seg_piso[5]} {seg_piso[4]} {seg_piso[3]} {seg_piso[2]} {seg_piso[1]} {seg_piso[0]} {seg_flechas[7]} {seg_flechas[6]} {seg_flechas[5]} {seg_flechas[4]} {seg_flechas[3]} {seg_flechas[2]} {seg_flechas[1]} {seg_flechas[0]} {piso_actual[3]} {piso_actual[2]} {piso_actual[1]} {piso_actual[0]} {boton_seleccionado[3]} {boton_seleccionado[2]} {boton_seleccionado[1]} {boton_seleccionado[0]} clk piso2_sel nivel reset abierto flecha_ctrl piso3_sel puerta piso0_sel cerrado motor_bajar piso1_sel digit_ctrl celula motor_subir]]
+startgroup
+set_property package_pin M13 [get_ports {boton_seleccionado[3]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {boton_seleccionado[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {boton_seleccionado[1]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {boton_seleccionado[0]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {piso_actual[3]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {piso_actual[2]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {piso_actual[1]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {piso_actual[0]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {seg_flechas[7]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {seg_flechas[6]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {seg_flechas[5]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {seg_flechas[4]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {boton_seleccionado[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {boton_seleccionado[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {boton_seleccionado[0]}]]
+startgroup
+set_property package_pin L14 [get_ports {boton_seleccionado[3]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {boton_seleccionado[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {boton_seleccionado[1]}]]
+startgroup
+set_property package_pin L13 [get_ports {boton_seleccionado[2]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {boton_seleccionado[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {boton_seleccionado[0]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {piso_actual[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {piso_actual[0]}]]
+startgroup
+set_property package_pin K13 [get_ports {piso_actual[3]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {piso_actual[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {piso_actual[1]}]]
+startgroup
+set_property package_pin K14 [get_ports {piso_actual[2]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {piso_actual[1]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {seg_flechas[7]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {seg_flechas[6]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {seg_flechas[5]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {seg_flechas[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {seg_flechas[3]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {seg_flechas[2]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {seg_flechas[1]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {seg_flechas[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_piso[4]}]]
+set_property package_pin "" [get_ports [list  {seg_flechas[7]}]]
+startgroup
+set_property package_pin P16 [get_ports {seg_piso[7]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_piso[6]}]]
+set_property package_pin "" [get_ports [list  {seg_flechas[6]}]]
+startgroup
+set_property package_pin N16 [get_ports {seg_piso[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_flechas[5]}]]
+startgroup
+set_property package_pin F13 [get_ports {seg_piso[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_flechas[4]}]]
+startgroup
+set_property package_pin F13 [get_ports {seg_piso[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_piso[3]}]]
+startgroup
+set_property package_pin R16 [get_ports {seg_piso[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_piso[3]}]]
+set_property package_pin "" [get_ports [list  {seg_flechas[3]}]]
+startgroup
+set_property package_pin P15 [get_ports {seg_piso[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_flechas[2]}]]
+startgroup
+set_property package_pin N15 [get_ports {seg_piso[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_flechas[1]}]]
+startgroup
+set_property package_pin G13 [get_ports {seg_piso[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seg_flechas[0]}]]
+startgroup
+set_property package_pin E14 [get_ports {seg_piso[0]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports abierto]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports celula]
+endgroup
+set_property package_pin "" [get_ports [list  cerrado]]
+set_property package_pin "" [get_ports [list  celula]]
+startgroup
+set_property package_pin H14 [get_ports cerrado]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports celula]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {boton_seleccionado[3]}]
+endgroup
+undo

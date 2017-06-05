@@ -1,0 +1,70 @@
+
+
+NET "segmentos[7]" IOSTANDARD = LVCMOS33;
+NET "segmentos[6]" IOSTANDARD = LVCMOS33;
+NET "segmentos[5]" IOSTANDARD = LVCMOS33;
+NET "segmentos[4]" IOSTANDARD = LVCMOS33;
+NET "segmentos[3]" IOSTANDARD = LVCMOS33;
+NET "segmentos[2]" IOSTANDARD = LVCMOS33;
+NET "segmentos[1]" IOSTANDARD = LVCMOS33;
+NET "segmentos[0]" IOSTANDARD = LVCMOS33;
+NET "seg_ctrl[1]" IOSTANDARD = LVCMOS33;
+NET "seg_ctrl[0]" IOSTANDARD = LVCMOS33;
+NET "piso_actual[2]" IOSTANDARD = LVCMOS33;
+NET "piso_actual[1]" IOSTANDARD = LVCMOS33;
+NET "piso_actual[0]" IOSTANDARD = LVCMOS33;
+NET "boton_seleccionado[2]" IOSTANDARD = LVCMOS33;
+NET "boton_seleccionado[1]" IOSTANDARD = LVCMOS33;
+NET "boton_seleccionado[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "piso2_sel" IOSTANDARD = LVCMOS33;
+NET "nivel" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "abierto" IOSTANDARD = LVCMOS33;
+NET "puerta" IOSTANDARD = LVCMOS33;
+NET "piso0_sel" IOSTANDARD = LVCMOS33;
+NET "cerrado" IOSTANDARD = LVCMOS33;
+NET "motor_bajar" IOSTANDARD = LVCMOS33;
+NET "piso1_sel" IOSTANDARD = LVCMOS33;
+NET "celula" IOSTANDARD = LVCMOS33;
+NET "motor_subir" IOSTANDARD = LVCMOS33;
+
+
+NET "boton_seleccionado[2]" LOC = M14;
+NET "boton_seleccionado[1]" LOC = L13;
+NET "boton_seleccionado[0]" LOC = L14;
+NET "piso_actual[2]" LOC = J13;
+NET "piso_actual[1]" LOC = K14;
+NET "piso_actual[0]" LOC = K13;
+NET "seg_ctrl[0]" LOC = D14;
+NET "segmentos[0]" LOC = P16;
+NET "segmentos[1]" LOC = N16;
+NET "segmentos[2]" LOC = F13;
+NET "segmentos[3]" LOC = R16;
+NET "segmentos[4]" LOC = P15;
+NET "reset" LOC = F12;
+NET "abierto" LOC = J14;
+NET "cerrado" LOC = H13;
+NET "celula" LOC = H14;
+NET "nivel" LOC = G12;
+NET "piso0_sel" LOC = P11;
+NET "piso1_sel" LOC = P12;
+NET "piso2_sel" LOC = N12;
+NET "puerta" LOC = K12;
+NET "motor_bajar" LOC = N14;
+NET "motor_subir" LOC = L12;
+NET "clk" LOC = T9;
+
+# PlanAhead Generated IO constraints 
+
+NET "seg_ctrl[3]" IOSTANDARD = LVCMOS33;
+NET "seg_ctrl[2]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "seg_ctrl[3]" LOC = E13;
+NET "seg_ctrl[2]" LOC = F14;
+NET "seg_ctrl[1]" LOC = G14;
+NET "segmentos[6]" LOC = G13;
+NET "segmentos[5]" LOC = N15;
+NET "segmentos[7]" LOC = E14;
